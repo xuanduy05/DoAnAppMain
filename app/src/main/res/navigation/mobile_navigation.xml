@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/navPhieuMuon">
+
+    <fragment
+        android:id="@+id/sub_Pass"
+        android:name="com.example.doanappmain.fragment.ChangePassFragment"
+        android:label="Đổi mật khẩu"
+        tools:layout="@layout/fragment_change_pass"
+        android:fontFamily="@font/poppinsmedium"
+        />
+    <fragment
+        android:id="@+id/sub_AddUser"
+        android:name="com.example.doanappmain.fragment.AddUserFragment"
+        android:label="Thêm người dùng"
+        android:fontFamily="@font/poppinsmedium"
+        tools:layout="@layout/fragment_add_user" />
+    <fragment
+        android:id="@+id/nav_ThanhVien"
+        android:name="com.example.doanappmain.fragment.ThanhVienFragment"
+        android:label="Quản Lý Thành Viên"
+        android:fontFamily="@font/poppinsmedium"
+        tools:layout="@layout/fragment_thanh_vien" />
+    <fragment
+        android:id="@+id/navPhieuMuon"
+        android:name="com.example.doanappmain.fragment.PhieuMuonFragment"
+        android:label="Quản Lý Phiếu Mượn"
+        android:fontFamily="@font/poppinsmedium"
+        tools:layout="@layout/fragment_phieu_muon" />
+    <fragment
+        android:id="@+id/nav_LoaiSach"
+        android:name="com.example.doanappmain.fragment.LoaiSachFragment"
+        android:label="Quản Lý Loại Sách"
+        android:fontFamily="@font/poppinsmedium"
+        tools:layout="@layout/fragment_loai_sach" />
+    <fragment
+        android:id="@+id/nav_Sach"
+        android:name="com.example.doanappmain.fragment.SachFragment"
+        android:label="Quản Lý Sách"
+        android:fontFamily="@font/poppinsmedium"
+        tools:layout="@layout/fragment_sach" />
+    <fragment
+        android:id="@+id/sub_Top"
+        android:fontFamily="@font/poppinsmedium"
+        android:name="com.example.doanappmain.fragment.TopFragment"
+        android:label="Top 10 Sách Mượn Nhiều Nhất"
+        tools:layout="@layout/fragment_top" />
+    <fragment
+        android:id="@+id/sub_DoanhThu"
+        android:fontFamily="@font/poppinsmedium"
+        android:name="com.example.doanappmain.fragment.DoanhThuFragment"
+        android:label="Doanh Thu"
+        tools:layout="@layout/fragment_doanh_thu" />
+    <fragment
+        android:id="@+id/sub_Login"
+        android:fontFamily="@font/poppinsmedium"
+        android:name="com.example.doanappmain.fragment.PhieuMuonFragment"
+        tools:layout="@layout/fragment_phieu_muon" />
+</navigation>

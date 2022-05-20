@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:background="@drawable/giaodien4"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Thêm Người Dùng"
+        android:gravity="center"
+        android:fontFamily="@font/poppinsmedium"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@drawable/giaodien5"
+        />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edUser"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+
+                android:drawableRight="@drawable/thanhvien"
+                android:background="@drawable/giaodien1"
+                android:inputType="text"
+                android:fontFamily="@font/poppinsmedium"
+                android:padding="10dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_margin="10dp"
+                android:hint=" Tên đăng nhập"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edHoTen"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:drawableRight="@drawable/thanhvien"
+                android:background="@drawable/giaodien1"
+                android:inputType="text"
+                android:fontFamily="@font/poppinsmedium"
+                android:padding="10dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_margin="10dp"
+                android:hint="Họ và Tên"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/edPass"
+                android:hint="Mật Khẩu"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:drawableRight="@drawable/thanhvien"
+                android:background="@drawable/giaodien1"
+                android:fontFamily="@font/poppinsmedium"
+                android:padding="10dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_margin="10dp"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edRePass"
+                android:hint="Nhập lại mật khẩu"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:drawableRight="@drawable/thanhvien"
+                android:background="@drawable/giaodien1"
+                android:fontFamily="@font/poppinsmedium"
+                android:padding="10dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_margin="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+
+            <Button
+                android:id="@+id/btnSaveUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_button5"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Lưu" />
+
+            <Button
+                android:id="@+id/btnCancelUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_button5"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsmedium"
+                android:textStyle="bold"
+                android:text="Hủy" />
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

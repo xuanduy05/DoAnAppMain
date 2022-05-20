@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/giaodien6"
+    tools:context=".fragment.PhieuMuonFragment">
+
+    <ListView
+        android:id="@+id/lvphieumuon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        /></ListView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabpm"
+        :layout_anchorGravity="bottom|right|end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:src="@drawable/add2"
+        android:backgroundTint="#ED7EA5"
+
+        android:layout_gravity="bottom|end"
+        />
+
+
+
+</FrameLayout>
